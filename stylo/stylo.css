@@ -34,29 +34,50 @@ header{
 .div_a{
     margin-right: 25px;
 }
-.cont_ppal{
-    display: inline;
-}
+
 h1{
     text-align: center;
     margin-bottom: 20px;
+    padding-right: 25%;
 }
-section{
-    margin-left: 25%;
+.cont_ppal{
+    display: flex;
 
 }
-.h2_secc_uno{
+/* 
+section{
+    margin-left: 25%; 
+
+}*/
+.secciones{
+    display: inline-block;
+    width: 75%;
+    height: auto;
     text-align: center;
+}
+.h2_secc_uno{
+   padding-left: 30%;
+
 }
 .div_secc_uno{
     display: flex;
     margin: 20px;
 }
-aside{
+.h2_secc_uno{
+    padding-right: 30%;
+}
+.igualito{
+    width: 33%;
+}
+
+.aside_uno{
+    margin-top: 0;
+    padding-top: 0;
     display: inline;
-    margin-right: 80%;
     padding-left: 20px;
 }
-.aside_ul{
-    text-decoration: none;
+
+/* footer en construccion  */
+footer{
+    margin-top: 40px;
 }
