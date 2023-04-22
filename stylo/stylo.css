@@ -60,14 +60,19 @@ section{
 
 }
 .div_secc_uno{
-    display: flex;
+    display: inline-flex;
     margin: 20px;
 }
 .h2_secc_uno{
     padding-right: 30%;
 }
 .igualito{
-    width: 33%;
+    width: 50%;
+}
+img{
+    width: 100%;
+    height: 100%;
+    border: 0;
 }
 
 .aside_uno{
@@ -75,6 +80,9 @@ section{
     padding-top: 0;
     display: inline;
     padding-left: 20px;
+}
+li{
+    margin-top: 20px;
 }
 
 /* footer en construccion  */
